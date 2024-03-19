@@ -1,0 +1,38 @@
+#inicio {
+    padding: 40px 5%;
+}
+
+#inicio .page-width {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+}
+
+#sobre-mim h1 {
+    color: #fff;
+    font-size: 42px;
+}
+
+#sobre-mim span {
+    color: #ff0a54;
+    display: block;
+    font-size: 42px;
+}
+
+#sobre-mim #apresentacao {
+    margin: 40px 0;
+}
+
+#sobre-mim p {
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 20px 0;
+    text-align: justify;
+}
+
+#img-inicio img{
+    height: 480px;
+    width: 300px;
+    border-radius: 50px;
+}
