@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body  {
+    background-color: #000;
+}
+
+.page-width {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.btn-contato button {
+    padding: 10px 40px;
+    background-color: #ff0a54;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 30px;
+    border: 0;
+    transition: 0.2s;
+    color: #000;
+}
+
+button:hover {
+    transform: scale(1.05);
+}

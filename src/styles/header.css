@@ -1,0 +1,38 @@
+header {
+    padding: 40px 8%;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header .page-width {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo i {
+    font-size: 25px;
+    color: #ff0a54;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+#navbar ul li a {
+    color: #fff;
+    font-weight: 600;
+}
+
+#navbar ul li:hover {
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+#navbar ul li a:hover {
+    color: #ffa4bf;
+}
