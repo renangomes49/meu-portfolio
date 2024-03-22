@@ -49,6 +49,36 @@ header .page-width {
     display: none;
 }
 
+#menu-mobile {
+    display: none;
+    background-color: #000;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    width: 50%;
+}
+
+#menu-mobile nav ul {
+    text-align: left;
+    list-style: none;
+}
+
+#menu-mobile nav ul li a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 20px 0;
+    display: block;
+    transition: .5s;
+}
+
+#menu-mobile nav ul li a:hover {
+    background-color: #ffa4bf;
+    color: #000;
+}
+
 @media screen and (max-width: 1289px){
     #navbar, .btn-header {
         display: none;
@@ -60,5 +90,11 @@ header .page-width {
         color: #fff;
         background-color: transparent;
         font-size: 1.5rem;
+        z-index: 3;
+    }
+
+    #menu-mobile.show-menu-mobile {
+        margin-top: 50px;
+        display: block;
     }
 }

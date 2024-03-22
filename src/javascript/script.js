@@ -1,5 +1,10 @@
 $(document).ready(function() {
 
+    $('#btn-mobile').on('click', function () {
+        $('#menu-mobile').toggleClass('show-menu-mobile');
+        $('#btn-mobile').find('i').toggleClass('fa-x');
+    })
+
     const sections = $('section');
     const navItems = $('.nav-item');
 
