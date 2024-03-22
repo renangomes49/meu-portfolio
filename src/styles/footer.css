@@ -1,0 +1,21 @@
+#footer-content {
+    padding: 40px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+#footer-content {
+    border-top: 2px solid #ff0a54;
+}
+
+#footer-content i {
+    font-size: 30px;
+    color: #ff0a54;
+    padding: 0 5px;
+}
