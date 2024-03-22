@@ -32,3 +32,9 @@
 #formacao-content-txt ul {
     list-style: none;
 }
+
+@media screen and (max-width: 1000px){
+    #img-formacao{
+        display: none;
+    }
+}

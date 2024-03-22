@@ -19,3 +19,10 @@ footer a {
     color: #ff0a54;
     padding: 0 5px;
 }
+
+@media screen and (max-width: 700px){
+    #footer-content {
+        display: flex;
+        flex-direction: column;
+    }
+}

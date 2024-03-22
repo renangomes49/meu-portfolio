@@ -88,3 +88,29 @@ form .btn-contato {
     margin-top: 20px;
     text-align: center;
 }
+
+@media screen and (max-width: 700px){
+    #meus-contato-icones {
+        width: 100%;
+    }
+
+    form {
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    #meus-contato-icones {
+        width: 100%;
+    }
+
+    form {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 360px){
+    #meus-contato-icones #contato-email{
+        font-size: 12px;
+    }
+}

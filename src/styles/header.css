@@ -44,3 +44,21 @@ header .page-width {
 .nav-item.active a{   
     border-bottom: 3px solid #ff0a54;
 }
+
+#btn-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 1289px){
+    #navbar, .btn-header {
+        display: none;
+    }
+
+    #btn-mobile {
+        display: block;
+        border: none;
+        color: #fff;
+        background-color: transparent;
+        font-size: 1.5rem;
+    }
+}

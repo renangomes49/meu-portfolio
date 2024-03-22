@@ -38,3 +38,25 @@
 .icone {
     text-align: center;
 }
+
+@media screen and (max-width: 850px){
+    section#tecnologias{
+        padding: 10%;
+    }
+
+    #tecnologias-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tecnologias-content-box {
+        margin-top: 10px;
+    }
+
+    #tecnologias-content {
+        display: flex;
+        align-items: center;
+        gap: 60px;
+        margin-top: 10px;
+    }
+}
