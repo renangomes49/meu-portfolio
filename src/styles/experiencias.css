@@ -3,6 +3,12 @@
     color: #fff;
 }
 
+#experiencias a {
+    color: #fff;
+    cursor: pointer;
+    text-decoration: underline
+}
+
 #experiencias h1 {
     color: #fff;
     font-size: 25px;

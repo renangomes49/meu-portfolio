@@ -1,0 +1,12 @@
+#saiba-mais p, h3{
+    color: #000;
+}
+
+#saiba-mais p {
+    text-align: justify;
+}
+
+#saiba-mais button{
+    padding: 5px 20px;
+}
+

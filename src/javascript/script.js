@@ -30,3 +30,48 @@ $(document).ready(function() {
         $(navItems[indexSecaoAtiva]).addClass('active');
     })
 });
+
+//Modal
+function abrirModalJava(){
+    new bootstrap.Modal("#modal-java").show();
+}
+
+function abrirModalVueJs(){
+    new bootstrap.Modal("#modal-vue-js").show();
+}
+
+function abrirModalSpring(){
+    new bootstrap.Modal("#modal-spring").show();
+}
+
+function abrirModalPostgreSql(){
+    new bootstrap.Modal("#modal-postegre-sql").show();
+}
+
+function abrirModalGit(){
+    new bootstrap.Modal("#modal-git").show();
+}
+
+function abrirModalGitLab(){
+    new bootstrap.Modal("#modal-git-lab").show();
+}
+
+function abrirModalJunit(){
+    new bootstrap.Modal("#modal-junit").show();
+}
+function abrirModalMockito(){
+    new bootstrap.Modal("#modal-mockito").show();
+}
+
+function abrirModalSwagger(){
+    new bootstrap.Modal("#modal-swagger").show();
+}
+
+function abrirModalDocker(){
+    new bootstrap.Modal("#modal-docker").show();
+}
+
+function abrirModalMysql(){
+    new bootstrap.Modal("#modal-my-sql").show();
+}
+

@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="styles/experiencias.css">
     <link rel="stylesheet" href="styles/contato.css">
     <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/saiba-mais.css">
 </head>
 <body>
     
@@ -180,7 +181,15 @@
                                         sendo desenvolvida. Trabalhava na criação de consultas SQL. Atuava na integração entre o front-end
                                         e o back-end do sistema.
                                     </li>
-                                    <li>Tecnologias utilizadas: Vue.js, TypeScript, Vuetify, Axios, Pinia, Java, Spring, PostgreSQL, Git e GitLab.</li>
+                                    <li>Tecnologias utilizadas: 
+                                        <a onclick="return abrirModalVueJs()">Vue.js</a>, 
+                                        <a onclick="return abrirModalJava()">Java</a>, 
+                                        <a onclick="return abrirModalSpring()">Spring</a>,
+                                        <a onclick="return abrirModalPostgreSql()">PostgreSQL</a>,
+                                        <a onclick="return abrirModalGit()">Git</a>
+                                        e 
+                                        <a onclick="return abrirModalGitLab()">GitLab.</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -197,11 +206,532 @@
                                 <ul>
                                     <li>Nessa empresa, eu estava alocado para trabalhar na plataforma de pós-venda da empresa.</li>
                                     <li>Eu trabalhava com desenvolvimento de endpoints, manutenção de endpoints, criação de testes unitários.</li>
-                                    <li>Tecnologias utilizadas: Java, Spring, Junit, Mockito, Swagger, Docker, MySQL.</li>
+                                    <li>Tecnologias utilizadas: Java, Spring, 
+                                        <a onclick="return abrirModalJunit()">Junit</a>, 
+                                        <a onclick="return abrirModalMockito()">Mockito</a>,
+                                        <a onclick="return abrirModalSwagger()">Swagger</a>,
+                                        <a onclick="return abrirModalDocker()">Docker</a>,
+                                        <a onclick="return abrirModalMysql()">MySQL</a>.
+                                    </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="saiba-mais">
+            <div class="modal" id="modal-java" tabindex="-1">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Java</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <h3>O que é Java?</h3>
+                      <p>
+                        Java é uma linguagem de programação e plataforma 
+                        de computação lançada pela primeira vez pela Sun Microsystems em 1995.
+                        Ela evoluiu de um começo humilde para impulsionar uma grande parte do mundo digital atual, 
+                        fornecendo a plataforma confiável sobre a qual muitos serviços e aplicativos são construídos. Produtos 
+                        e serviços digitais novos e inovadores projetados para o futuro também continuam a contar com Java.
+                      </p>  
+                      <p>Para saber mais sobre o Java 
+                        <a href="https://www.java.com/pt-BR/" target="_blank">acesse.</a>
+                      </p>
+                      <h3>Vantagens</h3>
+                      <ul>
+                        <li>Portabilidade</li>
+                        <li>Grande comunidade e ecossistema</li>
+                        <li>Segurança</li>
+                      </ul>
+                      <h3>Desvantagens</h3>
+                      <ul>
+                        <li>Performance relativa</li>
+                        <li>Consumo de memória</li>
+                        <li>Curva de aprendizado inicial</li>
+                      </ul>
+                      <h3>Empresas que utilizam Java</h3>
+                      <ul>
+                        <li>Mercado Livre</li>
+                        <li>Shopee</li>
+                        <li>Amazon</li>
+                        <li>Hotmart</li>
+                      </ul>
+                    </div>
+                    <div class="modal-footer">
+                      <div class="btn-contato btn-header">
+                         <button data-bs-dismiss="modal">Fechar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="modal" id="modal-vue-js" tabindex="-1">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Vue.Js</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h3>O que é Vue.js?</h3>
+                        <p>
+                            Vue é uma estrutura JavaScript para construção de interfaces de usuário. 
+                            Ele se baseia em HTML, CSS e JavaScript padrão e fornece um modelo de programação 
+                            declarativo e baseado em componentes 
+                            que ajuda a desenvolver interfaces de usuário com eficiência, sejam elas simples ou complexas.
+                        </p>  
+                        <p>Para saber mais sobre Vue.js 
+                          <a href="https://vuejs.org/" target="_blank">acesse.</a>
+                        </p>
+                        <h3>Vantagens</h3>
+                        <ul>
+                          <li>Simplicidade e facilidade de aprendizado</li>
+                          <li>Reatividade e renderização eficiente</li>
+                          <li>Flexibilidade e escalabilidade</li>
+                        </ul>
+                        <h3>Desvantagens</h3>
+                        <ul>
+                          <li>Menos suporte corporativo em comparação com concorrentes</li>
+                          <li>Ecossistema em constante evolução</li>
+                          <li>Menor número de recursos prontos em comparação com concorrentes</li>
+                        </ul>
+                        <h3>Empresas que utilizam Vue.js</h3>
+                        <ul>
+                          <li>GitLab</li>
+                          <li>Nintendo</li>
+                          <li>Adobe</li>
+                          <li>Grammarly</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="btn-contato btn-header">
+                            <button data-bs-dismiss="modal">Fechar</button>
+                         </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="modal" id="modal-spring" tabindex="-1">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Spring</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h3>O que é Spring?</h3>
+                        <p>
+                            Spring é uma tecnologia de Back-end. Não é um framework apenas, 
+                            mas um conjunto de projetos
+                            que resolvem vários problemas do dia-a-dia de um programador back-end. Ele ajuda criar
+                            aplicações Java com simplicidade e com flexibilidade.
+                        </p>  
+                        <p>Para saber mais sobre Spring 
+                          <a href="https://spring.io/" target="_blank">acesse.</a>
+                        </p>
+                        <h3>Vantagens</h3>
+                        <ul>
+                          <li>Flexível</li>
+                          <li>Produtivo</li>
+                          <li>Seguro</li>
+                          <li>Open source</li>
+                          <li>Comunidade grande e forte</li>
+                        </ul>
+                        <h3>Desvantagens</h3>
+                        <ul>
+                          <li>Curva de aprendizado inicial</li>
+                          <li>Configuração complexa</li>
+                          <li>Overhead devido à reflexão e injeção de dependência</li>
+                        </ul>
+                        <h3>Empresas que utilizam Spring</h3>
+                        <ul>
+                          <li>Netflix</li>
+                          <li>Bank of America</li>
+                          <li>Itaú</li>
+                          <li>Santander</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="btn-contato btn-header">
+                            <button data-bs-dismiss="modal">Fechar</button>
+                         </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="modal" id="modal-postegre-sql" tabindex="-1">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">PostgreSQL</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h3>O que é PostgreSQL?</h3>
+                        <p>
+                            PostgreSQL é um poderoso sistema de banco de dados relacional de objeto de código aberto 
+                            que usa e estende a linguagem SQL combinada com muitos recursos que armazenam e escalam com 
+                            segurança as cargas de trabalho de dados mais complicadas. 
+                        </p>  
+                        <p>Para saber mais sobre PostgreSQL 
+                          <a href="https://www.postgresql.org/" target="_blank">acesse.</a>
+                        </p>
+                        <h3>Vantagens</h3>
+                        <ul>
+                          <li>Robustez e confiabilidade</li>
+                          <li>Suporte a tipos de dados avançados</li>
+                          <li>Extensibilidade e flexibilidade</li>
+                        </ul>
+                        <h3>Desvantagens</h3>
+                        <ul>
+                          <li>Consumo de recursos</li>
+                          <li>Curva de aprendizado inicial</li>
+                          <li>Menor adoção em comparação com MySQL ou Oracle</li>
+                        </ul>
+                        <h3>Empresas que utilizam PostgreSQL</h3>
+                        <ul>
+                          <li>Apple</li>
+                          <li>Netflix</li>
+                          <li>Uber</li>
+                          <li>Instagram</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="btn-contato btn-header">
+                            <button data-bs-dismiss="modal">Fechar</button>
+                         </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="modal" id="modal-git" tabindex="-1">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Git</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h3>O que é Git?</h3>
+                        <p>
+                            Git é um sistema de controle de versão distribuído gratuito e de código aberto,
+                            projetado para lidar com tudo, desde projetos pequenos a muito grandes, com velocidade e eficiência.
+                        </p>  
+                        <p>Para saber mais sobre Git 
+                          <a href="https://git-scm.com/" target="_blank">acesse.</a>
+                        </p>
+                        <h3>Vantagens</h3>
+                        <ul>
+                          <li>Controle de versão eficiente</li>
+                          <li>Colaboração facilitada</li>
+                          <li>Histórico detalhado e rastreabilidade</li>
+                        </ul>
+                        <h3>Desvantagens</h3>
+                        <ul>
+                          <li>Curva de aprendizado inicial</li>
+                          <li>Potencial para conflitos durante merges</li>
+                          <li>Necessidade de gerenciamento adequado de repositórios</li>
+                        </ul>
+                        <h3>Empresas que utilizam Git</h3>
+                        <ul>
+                          <li>GitHub</li>
+                          <li>Google</li>
+                          <li>Microsoft</li>
+                          <li>Facebook</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="btn-contato btn-header">
+                            <button data-bs-dismiss="modal">Fechar</button>
+                         </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="modal" id="modal-git-lab" tabindex="-1">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">GitLab</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h3>O que é GitLab?</h3>
+                        <p>
+                            O GitLab é um gerenciador de repositório de software baseado em git, com suporte a Wiki, 
+                            gerenciamento de tarefas e CI/CD. GitLab é similar ao GitHub, mas o GitLab permite que os 
+                            desenvolvedores armazenem o 
+                            código em seus próprios servidores, ao invés de servidores de terceiros.
+                        </p>  
+                        <p>Para saber mais sobre GitLab
+                          <a href="https://about.gitlab.com/" target="_blank">acesse.</a>
+                        </p>
+                        <h3>Vantagens</h3>
+                        <ul>
+                          <li>Integração completa com Git</li>
+                          <li>Gerenciamento de ciclo de vida completo</li>
+                          <li>Flexibilidade e personalização</li>
+                        </ul>
+                        <h3>Desvantagens</h3>
+                        <ul>
+                          <li>Curva de aprendizado inicial</li>
+                          <li>Gerenciamento de recursos e escalabilidade</li>
+                          <li>Dependência de infraestrutura de terceiros</li>
+                        </ul>
+                        <h3>Empresas que utilizam GitLab</h3>
+                        <ul>
+                          <li>NASA</li>
+                          <li>Alibaba Group</li>
+                          <li>Sony</li>
+                          <li>Ticketmaster</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="btn-contato btn-header">
+                            <button data-bs-dismiss="modal">Fechar</button>
+                         </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="modal" id="modal-junit" tabindex="-1">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Junit</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h3>O que é Junit?</h3>
+                        <p>
+                            O JUnit é um framework open-source, que se assemelha ao raio de testes software java, 
+                            criado por Erich Gamma e Kent Beck, com suporte à criação de testes automatizados na linguagem de programação Java. 
+                            Esse framework facilita a criação e manutenção do código para a automação de testes com apresentação dos resultados.
+                        </p>  
+                        <p>Para saber mais sobre Junit
+                          <a href="https://junit.org/junit5/" target="_blank">acesse.</a>
+                        </p>
+                        <h3>Vantagens</h3>
+                        <ul>
+                          <li>Automatização de testes</li>
+                          <li>Integração com IDEs</li>
+                          <li>Framework robusto</li>
+                        </ul>
+                        <h3>Desvantagens</h3>
+                        <ul>
+                          <li>Complexidade para iniciantes</li>
+                          <li>Limitações em testes de integração</li>
+                          <li>Configuração de ambiente de testes</li>
+                        </ul>
+                        <h3>Empresas que utilizam Junit</h3>
+                        <ul>
+                          <li>Google</li>
+                          <li>Amazon</li>
+                          <li>Uber</li>
+                          <li>LinkedIn</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="btn-contato btn-header">
+                            <button data-bs-dismiss="modal">Fechar</button>
+                         </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="modal" id="modal-mockito" tabindex="-1">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Mockito</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h3>O que é Mockito?</h3>
+                        <p>
+                            Mockito é um framework de teste de código aberto para Java lançado sob a licença MIT. 
+                            A estrutura permite a criação de objetos duplos de teste em testes de unidade automatizados 
+                            para fins de desenvolvimento orientado a testes ou desenvolvimento orientado a comportamento.
+                        </p>  
+                        <p>Para saber mais sobre Mockito
+                          <a href="https://site.mockito.org/" target="_blank">acesse.</a>
+                        </p>
+                        <h3>Vantagens</h3>
+                        <ul>
+                          <li>Facilidade de criação de simulações (mocks)</li>
+                          <li>Integração com frameworks de teste</li>
+                          <li>Suporte a stubbing e verificação de comportamentos</li>
+                        </ul>
+                        <h3>Desvantagens</h3>
+                        <ul>
+                          <li>Curva de aprendizado inicial</li>
+                          <li>Potencial para testes frágeis</li>
+                          <li>Limitações em testes de integração</li>
+                        </ul>
+                        <h3>Empresas que utilizam Mockito</h3>
+                        <ul>
+                          <li>Google</li>
+                          <li>Netflix</li>
+                          <li>Twitter</li>
+                          <li>LinkedIn</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="btn-contato btn-header">
+                            <button data-bs-dismiss="modal">Fechar</button>
+                         </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="modal" id="modal-swagger" tabindex="-1">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Swagger</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h3>O que é Swagger?</h3>
+                        <p>
+                            Trata-se de uma aplicação open source que auxilia desenvolvedores nos processos de definir, 
+                            criar, documentar e consumir APIs REST.  Em suma, o Swagger visa padronizar este tipo de integração,
+                             descrevendo os recursos que uma API deve possuir, como endpoints,
+                             dados recebidos, dados retornados, códigos HTTP e métodos de autenticação, entre outros.
+                        </p>  
+                        <p>Para saber mais sobre Swagger
+                          <a href="https://swagger.io/" target="_blank">acesse.</a>
+                        </p>
+                        <h3>Vantagens</h3>
+                        <ul>
+                          <li>Documentação automática da API</li>
+                          <li>Interatividade com a API</li>
+                          <li>Padronização e consistência</li>
+                        </ul>
+                        <h3>Desvantagens</h3>
+                        <ul>
+                          <li>Dependência de ferramentas externas</li>
+                          <li>Complexidade inicial</li>
+                          <li>Manutenção da documentação</li>
+                        </ul>
+                        <h3>Empresas que utilizam Swagger</h3>
+                        <ul>
+                          <li>Microsoft</li>
+                          <li>Adobe</li>
+                          <li>LinkedIn</li>
+                          <li>PayPal</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="btn-contato btn-header">
+                            <button data-bs-dismiss="modal">Fechar</button>
+                         </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="modal" id="modal-docker" tabindex="-1">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Docker</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h3>O que é Docker?</h3>
+                        <p>
+                            O Docker é um software de código aberto usado para implantar aplicativos dentro de containers virtuais.
+                             A conteinerização permite que vários aplicativos funcionem em diferentes ambientes complexos. 
+                            Por exemplo: o Docker permite executar o WordPress em sistemas Windows, Linux e macOS, sem problemas.
+                        </p>  
+                        <p>Para saber mais sobre Docker
+                          <a href="https://www.docker.com/" target="_blank">acesse.</a>
+                        </p>
+                        <h3>Vantagens</h3>
+                        <ul>
+                          <li>Isolamento de aplicativos</li>
+                          <li>Portabilidade e consistência</li>
+                          <li>Eficiência e escalabilidade</li>
+                        </ul>
+                        <h3>Desvantagens</h3>
+                        <ul>
+                          <li>Gerenciamento de contêineres</li>
+                          <li>Complexidade inicial</li>
+                          <li>Overhead de recursos</li>
+                        </ul>
+                        <h3>Empresas que utilizam Docker</h3>
+                        <ul>
+                          <li>Spotify</li>
+                          <li>Uber</li>
+                          <li>Netflix</li>
+                          <li>eBay</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="btn-contato btn-header">
+                            <button data-bs-dismiss="modal">Fechar</button>
+                         </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="modal" id="modal-my-sql" tabindex="-1">
+                <div class="modal-dialog modal-lg modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">MySQL</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h3>O que é MySQL?</h3>
+                        <p>
+                            O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. 
+                            É atualmente um dos sistemas de gerenciamento de bancos de dados
+                             mais populares da Oracle Corporation, com mais de 10 milhões de instalações pelo mundo.
+                        </p>  
+                        <p>Para saber mais sobre MySQL
+                          <a href="https://www.mysql.com/" target="_blank">acesse.</a>
+                        </p>
+                        <h3>Vantagens</h3>
+                        <ul>
+                          <li>Gratuito e de código aberto</li>
+                          <li>Desempenho e escalabilidade</li>
+                          <li>Ampla compatibilidade</li>
+                        </ul>
+                        <h3>Desvantagens</h3>
+                        <ul>
+                          <li>Complexidade em configurações avançadas</li>
+                          <li>Escalabilidade vertical limitada</li>
+                          <li>Limitações em funcionalidades avançadas</li>
+                        </ul>
+                        <h3>Empresas que utilizam MySQL</h3>
+                        <ul>
+                          <li>Facebook</li>
+                          <li>YouTube</li>
+                          <li>Twitter</li>
+                          <li>Wikipedia</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="btn-contato btn-header">
+                            <button data-bs-dismiss="modal">Fechar</button>
+                         </div>
+                    </div>
+                  </div>
                 </div>
             </div>
         </section>
